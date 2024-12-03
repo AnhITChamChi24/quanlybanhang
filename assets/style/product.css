@@ -1,0 +1,34 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.container {
+    max-width: 1400px;
+    padding-top: 30px;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.error-message {
+    color: red;
+}
+.card button{
+    
+    border: 1px solid #f4f6f9;
+}
+.card button a{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+.card button li{
+    list-style-type: none;
+}
