@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_SESSION['username'])) {
-    header("Location: welcome.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $user = $result->fetch_assoc();
             if (password_verify($password, $user['password'])) {
                 $_SESSION['username'] = $username;
-                header("Location: welcome.php");
+                header("Location: index.php");
                 exit;
             } else {
                 $error_message = "Sai mật khẩu";
