@@ -20,7 +20,9 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
-
+        <link
+            href="https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
 
     </head>
 
@@ -29,7 +31,7 @@
             <div class="top-container">
                 <div id="block-menu">
                     <ul id="list-link">
-                        <li><a href="index.html" title="Home"> TRANG CHỦ</a></li>
+                        <li><a href="index.php" title="Home"> TRANG CHỦ</a></li>
                         <div class="menu-item">
                             <button class="dropdown-btn"> <span>Sản phẩm &#9660;</span></button>
                             <div class="dropdown-content">
@@ -214,11 +216,25 @@
                 </div>
             </div>
         </div>
-        
-        <div class="contact1">
+
+        <div class="container">
             <footer>
-                <div id="contact">
-                    <h1>Nguyễn Sĩ Hải</h1>
+                <div class="contact">
+                    <div class="logo-footer">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+                    <div class="local">
+                        <h1>Liên hệ với chúng tôi: </h1>
+                        <h1 > <span>MANEGER STORE </span> cửa hàng chuyên phân phối mỹ phẩm hàng
+                            đầu Việt Nam</h1>
+                        <h1>Địa chỉ: Đa phúc, Dương kinh, Quảng Luận Hải phòng</h1>
+                        <h1>SĐT: 0384552916</h1>
+                        <h1>Email: anhitchamchi@gmail.com</h1>
+                    </div>
+                    <div class="Email">
+                        <h1>Đăng kí để nhận tin mới nhất về chúng tôi</h1>
+                        <input type="text" placeholder="Email">
+                    </div>
                 </div>
             </footer>
         </div>

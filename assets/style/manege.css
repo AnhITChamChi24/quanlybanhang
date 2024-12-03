@@ -177,7 +177,9 @@ body {
 }
 .list-icon-features i{
     font-size: 59px;
-    color: #FFB200;
+    background: linear-gradient(to right, #FADA7A, #FF9D3D);
+    -webkit-background-clip: text;
+    color: transparent;
     
 }
 
@@ -227,7 +229,7 @@ body {
 .products{
     width: 1170px;
     padding-top: 50px;
-    
+    margin: 0 auto;
 }
 .text-product h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -243,6 +245,7 @@ body {
 }
 
 .product {
+
   display: flex;
   align-items: center;
   border: 1px solid #ddd;
@@ -287,14 +290,14 @@ body {
   padding: 8px 16px;
   font-size: 0.9rem;
   color: #fff;
-  background-color: #edc900;
+  background-color: #FADA7A;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 .product-name:hover{
-    color: #388e3c;
+    color: #F29F58;
 }
 .buy-now:hover {
   background-color: #e53935;
@@ -303,9 +306,41 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-.contact1{
+.contact{
+    gap: 30px;
+    font-family: "Spectral",sans-serif;
+    background-image: url(../images/background-footer.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-footer img{
+    width: 270px;
+    height: 270px;
+}
+.local{
+    width: 400px;
+}
+.local span{
+    background:linear-gradient(to right, #F29F58 , blue);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.local h1{
+    font-size: 20px;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     text-align: center;
-    margin: 0 auto;
-    width: 1070px;
-    background-color: #88aaf2;
+}
+.Email h1{
+    font-size: 20px;
+}
+.Email input{
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
 }
